@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Lyset - Algorithmic Trading Systems',
+  title: 'lyset - Algorithmic Trading Systems',
   description: 'Building high-performance trading bots for crypto markets.',
 }
 
