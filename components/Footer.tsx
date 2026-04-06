@@ -28,7 +28,7 @@ export default function Footer() {
           </Link>
         </div>
         <div className="text-xs text-slate-400">
-          © 2025 Lyset. All rights reserved.
+          © 2025 lyset
         </div>
       </div>
     </footer>
