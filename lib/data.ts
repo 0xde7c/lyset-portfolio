@@ -54,10 +54,10 @@ export const siteData = {
   stats: {
     liveDeployments: 4,
     marketsMonitored: [
-      { name: 'Lighter DEX', description: 'Low-latency scalping on Ethereum' },
       { name: 'Hyperliquid', description: 'Perpetual trading on Solana' },
-      { name: 'Solana', description: 'On-chain detection: copy trading & MEV' },
+      { name: 'Lighter', description: 'Low-latency scalping on Ethereum' },
       { name: 'Polymarket', description: 'Oracle lag arbitrage on binary options' },
+      { name: 'Solana', description: 'On-chain detection: copy trading & MEV' },
     ],
   },
 
