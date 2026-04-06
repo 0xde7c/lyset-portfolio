@@ -23,21 +23,12 @@ export default function Projects() {
                     {project.details}
                   </p>
 
-                  <div className="space-y-4">
-                    <div className="flex flex-wrap gap-2">
-                      {project.tags.map((tag, i) => (
-                        <span key={i} className="inline-block bg-slate-100 text-slate-700 px-2 py-1 text-xs rounded">
-                          {tag}
-                        </span>
-                      ))}
-                    </div>
-
-                    <div className="pt-4 border-t border-slate-200">
-                      <p className="text-xs text-slate-500 mb-1">Status</p>
-                      <p className="text-sm font-semibold text-green-600">
-                        {project.status}
-                      </p>
-                    </div>
+                  <div className="flex flex-wrap gap-2">
+                    {project.tags.map((tag, i) => (
+                      <span key={i} className="inline-block bg-slate-100 text-slate-700 px-2 py-1 text-xs rounded">
+                        {tag}
+                      </span>
+                    ))}
                   </div>
                 </div>
               </div>

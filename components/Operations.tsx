@@ -39,9 +39,9 @@ export default function Operations() {
         </div>
 
         <div>
-          <h2 className="text-3xl font-light text-slate-900 mb-12">
+          <p className="text-xs text-slate-500 mb-6 uppercase tracking-wide font-semibold">
             Deployed Across
-          </h2>
+          </p>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
             {siteData.stats.marketsMonitored.map((market, idx) => (
               <div key={idx} className="bg-white border border-slate-200 rounded-lg p-6">
