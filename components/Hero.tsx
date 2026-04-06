@@ -4,7 +4,7 @@ import Image from 'next/image'
 export default function Hero() {
   return (
     <section className="py-20 pb-16 border-b border-slate-200 relative overflow-hidden">
-      <div className="absolute -top-40 -right-32 w-96 h-96 pointer-events-none opacity-100">
+      <div className="absolute -top-20 -right-40 w-screen h-96 pointer-events-none opacity-100">
         <Image
           src="/pattern-dark.png"
           alt=""
