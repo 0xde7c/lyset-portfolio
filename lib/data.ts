@@ -1,0 +1,88 @@
+export const siteData = {
+  name: 'Lyset',
+  tagline: 'Algorithmic Trading Systems',
+  description: 'Building high-performance trading bots for crypto markets, specialized in MEV capture, oracle lag exploitation, and quantitative strategies.',
+
+  hero: {
+    heading: 'lyset',
+    subheading: 'Algorithmic Trading Systems',
+    description: 'Quantitative trading bots for spot, perpetuals, and derivatives across multiple blockchains.',
+  },
+
+  projects: [
+    {
+      name: 'ETH RSI Scalper',
+      description: 'High-frequency ETH scalping bot on Lighter DEX using RSI signals',
+      details: 'Executes sub-second trades capturing micro volatility on Ethereum mainnet',
+      status: 'LIVE',
+      version: 'v21',
+      performance: '$97.46',
+      github: 'https://github.com/0xde7c/lighter-bot',
+      tags: ['Trading', 'Lighter DEX', 'RSI', 'Scalping'],
+      featured: true,
+    },
+    {
+      name: 'Polymarket Oracle Lag',
+      description: 'Oracle lag arbitrage on Polymarket binary options',
+      details: 'Exploits timing asymmetries in oracle updates for profitable binary trades',
+      status: 'LIVE',
+      version: 'v33',
+      performance: '$68.37 baseline',
+      github: 'https://github.com/0xde7c',
+      tags: ['Prediction Markets', 'Oracle Lag', 'Polymarket'],
+      featured: true,
+    },
+    {
+      name: 'Solana Copy Trading',
+      description: 'Real-time on-chain copy trading for Solana tokens',
+      details: 'Detects whale transactions and automatically executes matched trades',
+      status: 'LIVE',
+      version: 'v2',
+      performance: '0.24 SOL',
+      github: 'https://github.com/0xde7c',
+      tags: ['Solana', 'Copy Trading', 'Whale Detection'],
+      featured: true,
+    },
+    {
+      name: 'Multi-DEX Scanner',
+      description: 'Cross-DEX arbitrage scanner with real-time pricing',
+      details: 'Monitors Uniswap, Curve, Balancer for MEV opportunities',
+      status: 'LIVE',
+      version: 'v1',
+      github: 'https://github.com/0xde7c',
+      tags: ['Arbitrage', 'MEV', 'Multi-DEX'],
+      featured: false,
+    },
+    {
+      name: 'XAUUSD RSI Alerts',
+      description: 'Forex RSI alert system for gold trading',
+      details: 'Multi-timeframe RSI analysis with Telegram notifications',
+      status: 'LIVE',
+      github: 'https://github.com/0xde7c/gold-rsi-alerts',
+      tags: ['Forex', 'Alerts', 'RSI'],
+      featured: false,
+    },
+    {
+      name: 'BTC/ETH/SOL RSI Alerts',
+      description: 'Cross-asset RSI alert system',
+      details: 'Real-time RSI signals across major cryptocurrencies',
+      status: 'LIVE',
+      github: 'https://github.com/0xde7c',
+      tags: ['Crypto', 'Alerts', 'Multi-Asset'],
+      featured: false,
+    },
+  ],
+
+  stats: {
+    totalBots: 6,
+    liveDeployments: 6,
+    marketsMonitored: ['Ethereum', 'Solana', 'Polymarket', 'Forex'],
+    totalCapitalManaged: '$500K+',
+  },
+
+  contact: {
+    email: 'adityadotb@gmail.com',
+    github: 'https://github.com/0xde7c',
+    twitter: 'https://x.com/0xde7c',
+  },
+}
