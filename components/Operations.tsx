@@ -40,7 +40,7 @@ export default function Operations() {
                 Infrastructure
               </p>
               <p className="text-sm text-slate-600 leading-relaxed">
-                Distributed, low-latency execution across 4 primary venues
+                Distributed, low-latency execution across 3 primary venues
               </p>
             </div>
           </div>
