@@ -6,3 +6,4 @@ out/
 *.pem
 .vercel/
 .DS_Store
+.vercel
