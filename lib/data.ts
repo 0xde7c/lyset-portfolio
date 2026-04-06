@@ -62,9 +62,9 @@ export const siteData = {
   },
 
   approach: {
-    philosophy: 'Systematic trading across market inefficiencies—microstructure arbitrage, oracle lag, and on-chain signals.',
-    execution: 'Sub-100ms execution across distributed infrastructure',
-    methodology: 'Real-time data processing, algorithmic signal generation, automated trade execution with risk controls',
+    philosophy: 'Systematic trading across structural inefficiencies unique to crypto and on-chain markets—microstructure arbitrage, oracle lag, information asymmetries, and cross-venue dislocations.',
+    execution: 'Sub-100ms execution across 4 primary venues with distributed, low-latency infrastructure optimized for crypto market microstructure.',
+    methodology: 'Strict position limits and circuit breakers ensure consistent risk controls. All strategies trade with real-time monitoring and automated safeguards.',
   },
 
   contact: {
