@@ -4,14 +4,6 @@ import Image from 'next/image'
 export default function Hero() {
   return (
     <section className="py-20 pb-16 border-b border-slate-200 relative overflow-hidden">
-      <div style={{position: 'absolute', top: '0', right: '0', width: '65%', height: '14rem', pointerEvents: 'none'}}>
-        <Image
-          src="/pattern.png"
-          alt=""
-          fill
-          className="object-cover"
-        />
-      </div>
       <div className="space-y-6 relative z-10">
         <div>
           <div className="flex items-center gap-4 mb-3">
