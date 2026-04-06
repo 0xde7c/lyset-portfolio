@@ -107,7 +107,7 @@ export const siteData = {
   },
 
   approach: {
-    philosophy: 'Systematic trading across market inefficiencies: microstructure arbitrage, oracle lag, and on-chain signals. All strategies trade live capital with position limits and circuit breakers.',
+    philosophy: 'Systematic trading across market inefficiencies—microstructure arbitrage, oracle lag, and on-chain signals.',
     execution: 'Sub-100ms execution across distributed infrastructure',
     methodology: 'Real-time data processing, algorithmic signal generation, automated trade execution with risk controls',
   },

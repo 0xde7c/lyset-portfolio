@@ -6,7 +6,7 @@ export default function Operations() {
       <div className="space-y-10">
         <div>
           <h2 className="text-3xl font-light text-slate-900 mb-12">
-            Scale
+            Operations
           </h2>
           <div className="flex gap-16">
             <div className="flex-1">
@@ -19,10 +19,10 @@ export default function Operations() {
             </div>
             <div className="flex-1">
               <p className="text-xs text-slate-500 mb-2 uppercase tracking-wide font-semibold">
-                Real Capital Traded
+                AUM
               </p>
               <p className="text-4xl font-light text-slate-900">
-                ✓
+                $50k-100k
               </p>
             </div>
           </div>
