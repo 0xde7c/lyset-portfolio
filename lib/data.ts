@@ -6,7 +6,7 @@ export const siteData = {
   hero: {
     heading: 'lyset',
     subheading: 'Algorithmic Trading Systems',
-    description: 'Quantitative trading bots for spot, perpetuals, and derivatives across multiple blockchains.',
+    description: 'Algorithmic trading systems for crypto markets and derivatives.',
   },
 
   projects: [
