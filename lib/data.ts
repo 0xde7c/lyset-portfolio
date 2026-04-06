@@ -6,7 +6,6 @@ export const siteData = {
   hero: {
     heading: 'lyset',
     subheading: 'Algorithmic Trading Systems',
-    description: 'Algorithmic trading systems for crypto markets and derivatives.',
   },
 
   projects: [

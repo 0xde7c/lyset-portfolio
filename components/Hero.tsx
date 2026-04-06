@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function Hero() {
   return (
-    <section className="py-20 border-b border-slate-200">
+    <section className="py-20 pb-32 border-b border-slate-200">
       <div className="space-y-6">
         <div>
           <div className="flex items-center gap-4 mb-3">
@@ -22,9 +22,6 @@ export default function Hero() {
             {siteData.hero.subheading}
           </p>
         </div>
-        <p className="text-base text-slate-600 max-w-3xl leading-relaxed">
-          {siteData.hero.description}
-        </p>
       </div>
     </section>
   )
