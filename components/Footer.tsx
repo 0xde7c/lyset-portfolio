@@ -9,7 +9,7 @@ export default function Footer() {
           © 2025 lyset
         </div>
         <div className="text-xs text-slate-500">
-          <a href="mailto:contact@lyset.xyz" className="hover:text-slate-900 transition-colors">
+          <a href="mailto:contact@lyset.xyz" className="text-slate-500 hover:text-slate-900 transition-colors">
             contact@lyset.xyz
           </a>
         </div>
