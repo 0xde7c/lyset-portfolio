@@ -63,37 +63,37 @@ export default function Projects() {
             <h2 className="text-3xl font-light text-slate-900 mb-10">
               Additional Systems
             </h2>
-            <div className="space-y-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
               {other.map((project, idx) => (
                 <div
                   key={idx}
-                  className="bg-white rounded-lg p-8 border border-slate-200 hover:border-slate-400 transition-all hover:shadow-sm"
+                  className="bg-white rounded-lg p-10 border border-slate-200 hover:border-slate-400 transition-all h-full flex flex-col"
                 >
                   <div className="flex justify-between items-start mb-3">
                     <div className="flex-1">
                       <h3 className="text-base font-semibold text-slate-900 mb-2">
                         {project.name}
                       </h3>
-                      <p className="text-sm text-slate-600 leading-relaxed">
+                      <p className="text-sm text-slate-600 leading-relaxed mb-4">
                         {project.description}
                       </p>
                     </div>
-                    <div className="text-right ml-4">
-                      <span className={`inline-block px-3 py-1 text-xs rounded font-semibold ${
-                        project.status === 'LIVE'
-                          ? 'bg-green-50 text-green-700'
-                          : 'bg-yellow-50 text-yellow-700'
-                      }`}>
-                        {project.status}
-                      </span>
-                    </div>
                   </div>
-                  <div className="flex flex-wrap gap-2">
-                    {project.tags.map((tag, i) => (
-                      <span key={i} className="text-xs text-slate-500 bg-slate-50 px-3 py-1 rounded">
-                        {tag}
-                      </span>
-                    ))}
+                  <div className="mt-auto flex justify-between items-end">
+                    <div className="flex flex-wrap gap-2">
+                      {project.tags.map((tag, i) => (
+                        <span key={i} className="text-xs text-slate-500 bg-slate-50 px-3 py-1 rounded">
+                          {tag}
+                        </span>
+                      ))}
+                    </div>
+                    <span className={`inline-block px-3 py-1 text-xs rounded font-semibold whitespace-nowrap ml-4 ${
+                      project.status === 'LIVE'
+                        ? 'bg-green-50 text-green-700'
+                        : 'bg-yellow-50 text-yellow-700'
+                    }`}>
+                      {project.status}
+                    </span>
                   </div>
                 </div>
               ))}

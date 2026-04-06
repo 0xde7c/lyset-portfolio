@@ -108,9 +108,9 @@ export const siteData = {
   },
 
   approach: {
-    philosophy: 'Quantitative trading leveraging market microstructure, oracle lag, and on-chain signals. Systematic risk management with real capital conviction.',
+    philosophy: 'Systematic trading across market inefficiencies: microstructure arbitrage, oracle lag, and on-chain signals. All strategies trade live capital with position limits and circuit breakers.',
     execution: 'Sub-100ms execution across distributed infrastructure',
-    methodology: 'Real-time data processing, algorithmic signal generation, automated trade execution',
+    methodology: 'Real-time data processing, algorithmic signal generation, automated trade execution with risk controls',
   },
 
   contact: {
