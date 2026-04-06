@@ -8,21 +8,31 @@ export default function Operations() {
           <h2 className="text-3xl font-light text-slate-900 mb-12">
             Operations
           </h2>
-          <div className="flex gap-16">
-            <div className="flex-1">
-              <p className="text-xs text-slate-500 mb-2 uppercase tracking-wide font-semibold">
-                Live Systems
-              </p>
-              <p className="text-4xl font-light text-slate-900">
-                {siteData.stats.liveDeployments}
-              </p>
+          <div className="space-y-8">
+            <div className="flex gap-16">
+              <div className="flex-1">
+                <p className="text-xs text-slate-500 mb-2 uppercase tracking-wide font-semibold">
+                  Live Systems
+                </p>
+                <p className="text-4xl font-light text-slate-900">
+                  {siteData.stats.liveDeployments}
+                </p>
+              </div>
+              <div className="flex-1">
+                <p className="text-xs text-slate-500 mb-2 uppercase tracking-wide font-semibold">
+                  AUM
+                </p>
+                <p className="text-4xl font-light text-slate-900">
+                  $50k-100k
+                </p>
+              </div>
             </div>
-            <div className="flex-1">
+            <div>
               <p className="text-xs text-slate-500 mb-2 uppercase tracking-wide font-semibold">
-                AUM
+                Infrastructure
               </p>
-              <p className="text-4xl font-light text-slate-900">
-                $50k-100k
+              <p className="text-sm text-slate-600 leading-relaxed">
+                Distributed, low-latency execution across 4 primary venues
               </p>
             </div>
           </div>
