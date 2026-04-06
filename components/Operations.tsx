@@ -8,17 +8,17 @@ export default function Operations() {
           <h2 className="text-3xl font-light text-slate-900 mb-12">
             Scale
           </h2>
-          <div className="grid grid-cols-2 md:grid-cols-2 gap-16">
-            <div className="bg-slate-50 rounded-lg p-8">
-              <p className="text-xs text-slate-500 mb-3 uppercase tracking-wide font-semibold">
+          <div className="flex gap-16">
+            <div className="flex-1">
+              <p className="text-xs text-slate-500 mb-2 uppercase tracking-wide font-semibold">
                 Live Systems
               </p>
               <p className="text-4xl font-light text-slate-900">
                 {siteData.stats.liveDeployments}
               </p>
             </div>
-            <div className="bg-slate-50 rounded-lg p-8">
-              <p className="text-xs text-slate-500 mb-3 uppercase tracking-wide font-semibold">
+            <div className="flex-1">
+              <p className="text-xs text-slate-500 mb-2 uppercase tracking-wide font-semibold">
                 Real Capital Traded
               </p>
               <p className="text-4xl font-light text-slate-900">

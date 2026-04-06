@@ -61,7 +61,7 @@ export default function Projects() {
         {other.length > 0 && (
           <div>
             <h2 className="text-3xl font-light text-slate-900 mb-12">
-              Additional Systems
+              Supporting Systems
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
               {other.map((project, idx) => (
