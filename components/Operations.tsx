@@ -27,7 +27,7 @@ export default function Operations() {
                 </p>
               </div>
             </div>
-            <div>
+            <div className="mb-12">
               <p className="text-xs text-slate-500 mb-2 uppercase tracking-wide font-semibold">
                 Infrastructure
               </p>
