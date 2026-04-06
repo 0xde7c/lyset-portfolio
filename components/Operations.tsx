@@ -5,23 +5,23 @@ export default function Operations() {
     <section className="py-10 border-b border-slate-200">
       <div className="space-y-10">
         <div>
-          <h2 className="text-3xl font-light text-slate-900 mb-8">
+          <h2 className="text-3xl font-light text-slate-900 mb-12">
             Scale
           </h2>
-          <div className="grid grid-cols-2 md:grid-cols-2 gap-12">
-            <div>
-              <p className="text-xs text-slate-500 mb-2 uppercase tracking-wide">
+          <div className="grid grid-cols-2 md:grid-cols-2 gap-16">
+            <div className="bg-slate-50 rounded-lg p-8">
+              <p className="text-xs text-slate-500 mb-3 uppercase tracking-wide font-semibold">
                 Live Systems
               </p>
-              <p className="text-3xl font-light text-slate-900">
+              <p className="text-4xl font-light text-slate-900">
                 {siteData.stats.liveDeployments}
               </p>
             </div>
-            <div>
-              <p className="text-xs text-slate-500 mb-2 uppercase tracking-wide">
+            <div className="bg-slate-50 rounded-lg p-8">
+              <p className="text-xs text-slate-500 mb-3 uppercase tracking-wide font-semibold">
                 Real Capital Traded
               </p>
-              <p className="text-3xl font-light text-slate-900">
+              <p className="text-4xl font-light text-slate-900">
                 ✓
               </p>
             </div>
@@ -29,7 +29,7 @@ export default function Operations() {
         </div>
 
         <div>
-          <h2 className="text-3xl font-light text-slate-900 mb-8">
+          <h2 className="text-3xl font-light text-slate-900 mb-12">
             Deployed Across
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6">

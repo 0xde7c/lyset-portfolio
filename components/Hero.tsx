@@ -6,14 +6,16 @@ export default function Hero() {
     <section className="py-20 border-b border-slate-200">
       <div className="space-y-6">
         <div>
-          <div className="flex items-center gap-3 mb-3">
-            <Image
-              src="/logo.png"
-              alt="lyset logo"
-              width={40}
-              height={40}
-              className="w-10 h-10"
-            />
+          <div className="flex items-center gap-4 mb-3">
+            <div className="w-12 h-12 bg-slate-100 rounded-lg flex items-center justify-center">
+              <Image
+                src="/logo.png"
+                alt="lyset logo"
+                width={32}
+                height={32}
+                className="w-8 h-8"
+              />
+            </div>
             <h1 className="text-5xl font-light tracking-tight text-slate-900">
               {siteData.hero.heading}
             </h1>

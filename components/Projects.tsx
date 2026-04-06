@@ -10,7 +10,7 @@ export default function Projects() {
       <div className="space-y-12">
         {/* Featured Projects */}
         <div>
-          <h2 className="text-3xl font-light text-slate-900 mb-10">
+          <h2 className="text-3xl font-light text-slate-900 mb-12">
             Featured Systems
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
@@ -60,7 +60,7 @@ export default function Projects() {
         {/* Other Projects */}
         {other.length > 0 && (
           <div>
-            <h2 className="text-3xl font-light text-slate-900 mb-10">
+            <h2 className="text-3xl font-light text-slate-900 mb-12">
               Additional Systems
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
