@@ -54,10 +54,10 @@ export const siteData = {
   stats: {
     liveDeployments: 4,
     marketsMonitored: [
-      { name: 'Hyperliquid', description: 'Perpetual trading on Solana' },
-      { name: 'Lighter', description: 'Low-latency scalping on Ethereum' },
+      { name: 'Hyperliquid', description: 'Perpetual futures trading and MM' },
+      { name: 'Lighter', description: 'Low-latency scalping on Ethereum and Bitcoin' },
       { name: 'Polymarket', description: 'Oracle lag arbitrage on binary options' },
-      { name: 'Solana', description: 'On-chain detection: copy trading & MEV' },
+      { name: 'Solana', description: 'Maximal extractable value (MEV) strategies' },
     ],
   },
 
