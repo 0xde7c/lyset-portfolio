@@ -4,7 +4,7 @@ export default function Infrastructure() {
   return (
     <section className="py-10 border-b border-slate-100">
       <h2 className="text-3xl font-light text-slate-900 mb-8">
-        Approach
+        What We Do
       </h2>
       <div className="space-y-8">
         <div>

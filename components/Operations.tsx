@@ -37,24 +37,6 @@ export default function Operations() {
             </div>
           </div>
         </div>
-
-        <div>
-          <p className="text-xs text-slate-500 mb-6 uppercase tracking-wide font-semibold">
-            Deployed Across
-          </p>
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
-            {siteData.stats.marketsMonitored.map((market, idx) => (
-              <div key={idx} className="bg-white border border-slate-200 rounded-lg p-6">
-                <p className="text-sm font-semibold text-slate-900 mb-2">
-                  {market.name}
-                </p>
-                <p className="text-xs text-slate-600 leading-relaxed">
-                  {market.description}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
       </div>
     </section>
   )
