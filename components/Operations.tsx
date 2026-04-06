@@ -2,8 +2,8 @@ import { siteData } from '@/lib/data'
 
 export default function Operations() {
   return (
-    <section className="py-16 border-b border-slate-200">
-      <div className="space-y-12">
+    <section className="py-10 border-b border-slate-200">
+      <div className="space-y-10">
         <div>
           <h2 className="text-3xl font-light text-slate-900 mb-8">
             Scale
@@ -32,19 +32,15 @@ export default function Operations() {
           <h2 className="text-3xl font-light text-slate-900 mb-8">
             Deployed Across
           </h2>
-          <div className="space-y-4">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
             {siteData.stats.marketsMonitored.map((market, idx) => (
-              <div key={idx} className="flex gap-6">
-                <div className="flex-shrink-0 w-40">
-                  <p className="text-sm font-semibold text-slate-900">
-                    {market.name}
-                  </p>
-                </div>
-                <div className="flex-1">
-                  <p className="text-sm text-slate-600">
-                    {market.description}
-                  </p>
-                </div>
+              <div key={idx} className="bg-white border border-slate-200 rounded-lg p-6">
+                <p className="text-sm font-semibold text-slate-900 mb-2">
+                  {market.name}
+                </p>
+                <p className="text-xs text-slate-600 leading-relaxed">
+                  {market.description}
+                </p>
               </div>
             ))}
           </div>
