@@ -10,10 +10,6 @@ export default function Stats() {
       label: 'Markets Monitored',
       value: siteData.stats.marketsMonitored.length,
     },
-    {
-      label: 'Total Bots',
-      value: siteData.stats.totalBots,
-    },
   ]
 
   return (
