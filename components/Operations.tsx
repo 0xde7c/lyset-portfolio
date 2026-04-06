@@ -9,8 +9,8 @@ export default function Operations() {
             Operations
           </h2>
           <div className="space-y-8">
-            <div className="flex gap-16">
-              <div className="flex-1">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-16">
+              <div>
                 <p className="text-xs text-slate-500 mb-2 uppercase tracking-wide font-semibold">
                   Live Systems
                 </p>
@@ -18,7 +18,7 @@ export default function Operations() {
                   {siteData.stats.liveDeployments}
                 </p>
               </div>
-              <div className="flex-1">
+              <div>
                 <p className="text-xs text-slate-500 mb-2 uppercase tracking-wide font-semibold">
                   AUM
                 </p>
@@ -26,7 +26,7 @@ export default function Operations() {
                   {siteData.stats.aum}
                 </p>
               </div>
-              <div className="flex-1">
+              <div>
                 <p className="text-xs text-slate-500 mb-2 uppercase tracking-wide font-semibold">
                   Volume
                 </p>
