@@ -19,17 +19,9 @@ export default function Projects() {
                   <p className="text-base text-slate-600 mb-4 leading-relaxed">
                     {project.description}
                   </p>
-                  <p className="text-sm text-slate-500 mb-6 flex-grow leading-relaxed">
+                  <p className="text-sm text-slate-500 flex-grow leading-relaxed">
                     {project.details}
                   </p>
-
-                  <div className="flex flex-wrap gap-2">
-                    {project.tags.map((tag, i) => (
-                      <span key={i} className="inline-block bg-slate-100 text-slate-700 px-2 py-1 text-xs rounded">
-                        {tag}
-                      </span>
-                    ))}
-                  </div>
                 </div>
               </div>
             ))}
