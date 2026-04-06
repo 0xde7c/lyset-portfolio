@@ -36,34 +36,18 @@ export default function Projects() {
                       ))}
                     </div>
 
-                    <div className="pt-4 border-t border-slate-200 space-y-3">
-                      <div className="grid grid-cols-3 gap-2 text-xs">
-                        <div>
-                          <p className="text-slate-500">Sharpe</p>
-                          <p className="font-semibold text-slate-900">{project.sharpe}</p>
-                        </div>
-                        <div>
-                          <p className="text-slate-500">Win Rate</p>
-                          <p className="font-semibold text-slate-900">{project.winRate}</p>
-                        </div>
-                        <div>
-                          <p className="text-slate-500">Drawdown</p>
-                          <p className="font-semibold text-slate-900">{project.maxDrawdown}</p>
-                        </div>
+                    <div className="flex justify-between items-center pt-4 border-t border-slate-200">
+                      <div>
+                        <p className="text-xs text-slate-500">Status</p>
+                        <p className="text-sm font-semibold text-green-600">
+                          {project.status}
+                        </p>
                       </div>
-                      <div className="flex justify-between items-center pt-2">
-                        <div>
-                          <p className="text-xs text-slate-500">Status</p>
-                          <p className="text-sm font-semibold text-green-600">
-                            {project.status}
-                          </p>
-                        </div>
-                        <div className="text-right">
-                          <p className="text-xs text-slate-500">Uptime</p>
-                          <p className="text-sm font-semibold text-slate-900">
-                            {project.uptime}
-                          </p>
-                        </div>
+                      <div className="text-right">
+                        <p className="text-xs text-slate-500">Operational</p>
+                        <p className="text-sm font-semibold text-slate-900">
+                          {project.uptime}
+                        </p>
                       </div>
                     </div>
                   </div>

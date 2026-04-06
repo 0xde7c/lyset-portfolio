@@ -1,31 +1,35 @@
 import { siteData } from '@/lib/data'
 
 export default function Infrastructure() {
-  const items = Object.entries(siteData.infrastructure).map(([key, value]) => ({
-    label: key.replace(/([A-Z])/g, ' $1').trim(),
-    description: value,
-  }))
-
   return (
     <section className="py-16 border-b border-slate-200">
       <h2 className="text-3xl font-light text-slate-900 mb-12">
-        Technical Infrastructure
+        Approach
       </h2>
-      <div className="space-y-6">
-        {items.map((item, idx) => (
-          <div key={idx} className="flex gap-6">
-            <div className="flex-shrink-0 w-32">
-              <p className="text-sm font-semibold text-slate-900 capitalize">
-                {item.label}
-              </p>
-            </div>
-            <div className="flex-1">
-              <p className="text-sm text-slate-600">
-                {item.description}
-              </p>
-            </div>
+      <div className="space-y-8">
+        <div>
+          <p className="text-sm text-slate-600 leading-relaxed max-w-2xl">
+            {siteData.approach.philosophy}
+          </p>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div>
+            <p className="text-xs text-slate-500 mb-2 uppercase tracking-wide">
+              Execution
+            </p>
+            <p className="text-sm text-slate-900">
+              {siteData.approach.execution}
+            </p>
           </div>
-        ))}
+          <div>
+            <p className="text-xs text-slate-500 mb-2 uppercase tracking-wide">
+              Methodology
+            </p>
+            <p className="text-sm text-slate-900">
+              {siteData.approach.methodology}
+            </p>
+          </div>
+        </div>
       </div>
     </section>
   )

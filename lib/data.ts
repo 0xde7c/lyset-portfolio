@@ -97,22 +97,20 @@ export const siteData = {
   ],
 
   stats: {
-    operationalSince: 'June 2025',
     totalBots: 6,
     liveDeployments: 6,
-    aum: '$100K+',
-    avgSharpe: '1.6',
-    avgMaxDrawdown: '11.7%',
-    marketsMonitored: ['Ethereum', 'Solana', 'Polymarket', 'Forex'],
+    marketsMonitored: [
+      { name: 'Ethereum DEX', description: 'Low-latency scalping on Lighter DEX' },
+      { name: 'Solana', description: 'On-chain detection: copy trading & MEV' },
+      { name: 'Prediction Markets', description: 'Oracle lag arbitrage on Polymarket' },
+      { name: 'Traditional Markets', description: 'Forex: XAUUSD RSI alerts' },
+    ],
   },
 
-  infrastructure: {
-    dataLayer: 'WebSocket + gRPC for real-time streams',
-    execution: 'Direct RPC endpoints (<100ms latency)',
-    deployment: 'AWS + Vercel (production-grade)',
-    backtest: 'Python + pandas/numpy for strategy validation',
-    riskManagement: 'Position limits, circuit breakers, drawdown stops',
-    monitoring: 'Real-time alerts via Telegram',
+  approach: {
+    philosophy: 'Quantitative trading leveraging market microstructure, oracle lag, and on-chain signals. Systematic risk management with real capital conviction.',
+    execution: 'Sub-100ms execution across distributed infrastructure',
+    methodology: 'Real-time data processing, algorithmic signal generation, automated trade execution',
   },
 
   contact: {
