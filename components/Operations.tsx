@@ -23,7 +23,15 @@ export default function Operations() {
                   AUM
                 </p>
                 <p className="text-4xl font-light text-slate-900">
-                  $50k-100k
+                  {siteData.stats.aum}
+                </p>
+              </div>
+              <div className="flex-1">
+                <p className="text-xs text-slate-500 mb-2 uppercase tracking-wide font-semibold">
+                  Volume
+                </p>
+                <p className="text-4xl font-light text-slate-900">
+                  {siteData.stats.volume}
                 </p>
               </div>
             </div>

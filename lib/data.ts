@@ -53,6 +53,8 @@ export const siteData = {
 
   stats: {
     liveDeployments: 4,
+    aum: '<$30k',
+    volume: '$30M+',
     marketsMonitored: [
       { name: 'Hyperliquid', description: 'Perpetual futures trading and MM' },
       { name: 'Lighter', description: 'Low-latency scalping on Ethereum and Bitcoin' },
