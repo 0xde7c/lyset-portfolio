@@ -52,12 +52,11 @@ export const siteData = {
   ],
 
   stats: {
-    liveDeployments: 4,
+    liveDeployments: 3,
     aum: '<$30k',
     volume: '$30M+',
     marketsMonitored: [
-      { name: 'Hyperliquid', description: 'Perpetual futures trading and MM' },
-      { name: 'Lighter', description: 'Low-latency scalping on Ethereum and Bitcoin' },
+      { name: 'Lighter', description: 'Perpetual futures trading' },
       { name: 'Polymarket', description: 'Oracle lag arbitrage on binary options' },
       { name: 'Solana', description: 'Maximal extractable value (MEV) strategies' },
     ],
