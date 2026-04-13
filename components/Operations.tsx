@@ -20,7 +20,7 @@ export default function Operations() {
               </div>
               <div>
                 <p className="text-xs text-slate-500 mb-2 uppercase tracking-wide font-semibold">
-                  AUM
+                  Capital
                 </p>
                 <p className="text-4xl font-light text-slate-900">
                   {siteData.stats.aum}

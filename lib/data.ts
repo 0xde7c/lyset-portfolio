@@ -58,14 +58,13 @@ export const siteData = {
     marketsMonitored: [
       { name: 'Lighter', description: 'Perpetual futures trading' },
       { name: 'Polymarket', description: 'Oracle lag arbitrage on binary options' },
-      { name: 'Solana', description: 'Maximal Extractable Value (MEV) Strategies' },
+      { name: 'CFDs', description: 'Forex and Metals' },
     ],
   },
 
   approach: {
-    philosophy: 'Systematic trading across structural inefficiencies unique to crypto and on-chain markets.',
-    execution: 'Sub-500ms execution across 3 primary venues with distributed, low-latency infrastructure optimized for crypto market microstructure.',
-    methodology: 'Strict position limits and circuit breakers ensure consistent risk controls. All strategies trade with real-time monitoring and automated safeguards.',
+    philosophy: 'Systematic and discretionary trading across 3 venues.',
+    execution: 'Automated execution across 3 venues with low-latency infrastructure.',
   },
 
   contact: {
