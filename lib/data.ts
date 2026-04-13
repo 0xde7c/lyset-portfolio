@@ -63,7 +63,7 @@ export const siteData = {
   },
 
   approach: {
-    philosophy: 'Systematic and discretionary trading across 3 venues.',
+    philosophy: 'Systematic and discretionary trading across crypto derivatives, prediction markets and on-chain venues.',
     execution: 'Automated execution across 3 venues with low-latency infrastructure.',
   },
 
