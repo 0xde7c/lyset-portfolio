@@ -57,8 +57,8 @@ export const siteData = {
     volume: '$30m+',
     marketsMonitored: [
       { name: 'Lighter', description: 'Perpetual futures trading' },
-      { name: 'Polymarket', description: 'Oracle lag arbitrage on binary options' },
-      { name: 'CFDs', description: 'Forex and Metals' },
+      { name: 'Polymarket', description: 'Binary options trading' },
+      { name: 'XAUUSD', description: 'Forex and Metals' },
     ],
   },
 
