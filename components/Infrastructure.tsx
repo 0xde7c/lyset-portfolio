@@ -20,6 +20,14 @@ export default function Infrastructure() {
             {siteData.approach.execution}
           </p>
         </div>
+        <div>
+          <p className="text-xs text-slate-500 mb-3 uppercase tracking-wide font-semibold">
+            Infrastructure
+          </p>
+          <p className="text-sm text-slate-600 leading-relaxed">
+            Lighter • Polymarket • CFDs
+          </p>
+        </div>
       </div>
     </section>
   )
