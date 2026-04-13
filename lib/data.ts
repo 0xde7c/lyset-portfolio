@@ -63,8 +63,8 @@ export const siteData = {
   },
 
   approach: {
-    philosophy: 'Systematic and discretionary trading across Lighter, Polymarket, and CFDs.',
-    execution: 'Automated execution with low-latency infrastructure.',
+    philosophy: 'Systematic and discretionary trading across 3 venues.',
+    execution: 'Automated execution across 3 venues with low-latency infrastructure.',
   },
 
   contact: {

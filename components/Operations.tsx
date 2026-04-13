@@ -35,6 +35,14 @@ export default function Operations() {
                 </p>
               </div>
             </div>
+            <div className="mb-12">
+              <p className="text-xs text-slate-500 mb-2 uppercase tracking-wide font-semibold">
+                Infrastructure
+              </p>
+              <p className="text-sm text-slate-600 leading-relaxed">
+                Distributed, low-latency execution across 3 primary venues
+              </p>
+            </div>
           </div>
         </div>
 
