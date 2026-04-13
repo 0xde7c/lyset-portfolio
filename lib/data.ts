@@ -54,7 +54,7 @@ export const siteData = {
   stats: {
     liveDeployments: 3,
     aum: '<$30k',
-    volume: '$30M+',
+    volume: '$30m+',
     marketsMonitored: [
       { name: 'Lighter', description: 'Perpetual futures trading' },
       { name: 'Polymarket', description: 'Oracle lag arbitrage on binary options' },
