@@ -40,7 +40,7 @@ export default function Operations() {
                 Infrastructure
               </p>
               <p className="text-sm text-slate-600 leading-relaxed">
-                Systematic "Execution across 3 venues."
+                Execution across 3 venues.
               </p>
             </div>
           </div>
