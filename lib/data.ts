@@ -58,7 +58,7 @@ export const siteData = {
     marketsMonitored: [
       { name: 'Lighter', description: 'Perpetual futures trading' },
       { name: 'Polymarket', description: 'Binary options trading' },
-      { name: 'Commodities', description: 'XAUUSD and WTI' },
+      { name: 'Hyperliquid', description: 'Gold and WTI' },
     ],
   },
 
