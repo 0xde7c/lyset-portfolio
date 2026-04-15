@@ -58,12 +58,12 @@ export const siteData = {
     marketsMonitored: [
       { name: 'Lighter', description: 'Perpetual futures trading' },
       { name: 'Polymarket', description: 'Binary options trading' },
-      { name: 'CFD', description: 'XAUUSD' },
+      { name: 'Commodities', description: 'XAUUSD and WTI' },
     ],
   },
 
   approach: {
-    philosophy: 'Systematic and discretionary trading across crypto derivatives, prediction markets and on-chain venues.',
+    philosophy: 'Systematic and discretionary trading across crypto derivatives, prediction markets and commodities.',
     execution: 'Automated execution across 3 venues with low-latency infrastructure.',
   },
 
